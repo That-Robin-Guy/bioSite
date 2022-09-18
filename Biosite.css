@@ -1,0 +1,112 @@
+body {
+    background-color: #6D9AB3;
+}
+  
+#container {
+    display: flex;
+}
+
+.land-logo {
+    flex-direction: left;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    padding-right: 10px;
+   
+
+    }
+
+.land-logo blockquote {
+        font-family: "raleway", sans-serif;
+        font-style: italic;
+        font-weight: 50;
+        font-size: xx-large;  
+        flex-wrap: wrap;      
+                
+     }
+
+.land-body {
+    flex-direction: right;
+    width: 60%;
+    padding: 10px;      
+       
+}
+
+a {
+    text-align: center;
+    color: #204D66;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#6D9AB3;
+    text-decoration: underline;
+}
+
+.land img {
+    border: 5px solid #8CC6E6;
+}
+
+
+
+
+h1 {
+    background-color: #8CC6E6;
+    text-align: center;
+    color: #204D66;
+    font-size: 500S;
+    }
+
+h2 {
+    background-color: #8CC6E6;
+    text-align: center;
+}
+
+#profile-pic img {
+    width: 250px;
+    height: 400px;
+    border: 5px solid #8CC6E6;
+}
+
+.profile-left {
+    flex-direction: left;
+    width: 30%;
+    height: 100%;
+    padding-right: 10px;
+    }
+
+
+.profile-body {
+    flex-direction: right;
+    width: 60%;
+    height: 100%;
+    padding-left: 10px;
+    background-color: #3E5866;
+    color: aliceblue; 
+    }
+
+
+
+    img {
+        border: 5px solid #8CC6E6;
+    }
+
+    .hobbies-pics {
+        flex-direction: left;
+        padding-right: 10px;
+        width: 25%;
+
+    }
+
+    .hobbies-body {
+        flex-direction: right;
+        width: 60%;
+        padding-left: 10px;
+        background-color: #3E5866;
+        color: aliceblue;
+    }
+
+.paragraph  {
+        background-color: #3E5866;
+        color: aliceblue;
+    }
