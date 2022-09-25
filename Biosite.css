@@ -9,26 +9,29 @@ body {
 .land-logo {
     flex-direction: left;
     background-color: white;
-    width: 30%;
+    width: 32%;
     height: 100%;
-    padding-right: 10px;
-   
-
+    padding-right: 20px;   
     }
+
+.land-logo img {
+    border: none;
+}
 
 .land-logo blockquote {
         font-family: "raleway", sans-serif;
         font-style: italic;
         font-weight: 50;
         font-size: xx-large;  
-        flex-wrap: wrap;      
+        flex-wrap: wrap; 
+        text-align: center;     
                 
      }
 
 .land-body {
     flex-direction: right;
-    width: 60%;
-    padding: 10px;      
+    width: 50%;
+    padding: 20px;      
        
 }
 
@@ -80,18 +83,19 @@ h2 {
     flex-direction: right;
     width: 60%;
     height: 100%;
-    padding-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     background-color: #3E5866;
     color: aliceblue; 
     }
 
 
 
-    img {
+img {
         border: 5px solid #8CC6E6;
     }
 
-    .hobbies-pics {
+.hobbies-pics {
         flex-direction: left;
         padding-right: 10px;
         width: 25%;
@@ -110,3 +114,32 @@ h2 {
         background-color: #3E5866;
         color: aliceblue;
     }
+
+
+    
+footer {
+        background-color: #8CC6E6;
+        position: fixed;
+        left: 0%;
+        bottom: 0;
+        width: 100%;
+    }
+    
+footer p {
+        color: white;
+        font-weight: 400;
+        float: left;
+        padding-right: 10px;
+        font-style: italic;
+    }
+    
+footer a {
+        text-decoration: none;
+        color: white;
+        float: right;
+    
+    }
+
+.links {
+    padding-left: 10px;
+}
