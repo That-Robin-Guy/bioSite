@@ -1,39 +1,124 @@
 body {
     background-color: #6D9AB3;
 }
+
+header {
+    background-color: #8CC6E6;
+    
+}
+
+header h3 {
+    font-family: "Poppins", sans-serif;
+    background-color: #8CC6E6;
+    color: #3E5866;
+
+}
   
 #container {
     display: flex;
 }
 
+h1 {
+    background-color: #8CC6E6;
+    text-align: right;
+    color: #204D66;
+    font-size: 500S;
+    padding-right: 10px;
+    margin: 0;
+    font-family: "Raleway";
+    font-style: bold;
+    }
+
+h2 {
+    background-color: #8CC6E6;
+    text-align: right;    
+    padding-left: 40px;
+    padding-right: 10px; 
+    font-family: "Roboto";
+    font-style: bold;
+    
+}
+
+h3 {
+    font-family: "Roboto";
+    font-style: bold;
+    background-color: #8CC6E6;
+    color: #204D66;
+    text-align: right;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
 .land-logo {
     flex-direction: left;
     background-color: white;
-    width: 32%;
+    width: 25%;
     height: 100%;
-    padding-right: 20px;   
+    padding: 5px;  
+    border: #8CC6E6; 
     }
 
 .land-logo img {
     border: none;
+    
 }
 
 .land-logo blockquote {
-        font-family: "raleway", sans-serif;
-        font-style: italic;
-        font-weight: 50;
-        font-size: xx-large;  
+        font-family: "Raleway";
+        font-style: bold;
+        font-weight: 500;
+        font-size:x-large;  
         flex-wrap: wrap; 
         text-align: center;     
                 
      }
 
 .land-body {
-    flex-direction: right;
-    width: 55%;
-    padding: 20px;      
-       
+   flex-direction: right;
+    width: 70%;  
+    padding-left: 10px;        
 }
+
+.images {
+    display: flex;
+    padding: 10px;
+    background-color: #204D66;
+}
+
+.usa-image {
+    vertical-align: top;
+    flex-direction: left;
+    padding-left: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+.deck-image {
+    vertical-align: top;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.kitten-image {
+    vertical-align: top;
+    text-align: center;
+    flex-direction: right;
+    padding-left: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.caption {
+    display: block;
+    font-family: "Raleway";
+}
+
 
 a {
     text-align: center;
@@ -46,24 +131,13 @@ a:hover {
     text-decoration: underline;
 }
 
-.land img {
+.land-body img {
     border: 5px solid #8CC6E6;
+    box-shadow: #204D66;
 }
 
 
 
-
-h1 {
-    background-color: #8CC6E6;
-    text-align: center;
-    color: #204D66;
-    font-size: 500S;
-    }
-
-h2 {
-    background-color: #8CC6E6;
-    text-align: center;
-}
 
 #profile-pic img {
     width: 250px;
@@ -80,39 +154,63 @@ h2 {
 
 
 .profile-body {
-    flex-direction: right;
-    width: 60%;
+    flex-direction: column;
+    width: 70%;
     height: 100%;
     padding-left: 25px;
-    padding-right: 25px;
-    background-color: #3E5866;
+    
+    background-color: #3E5866;    
     color: aliceblue; 
     }
 
+.profile-menu {
+    flex-direction: right;
+}
 
+
+p.closing a {
+    color: #8CC6E6;
+    text-decoration: none;
+}
+
+p.closing a:hover {
+    color:#6D9AB3;
+    text-decoration: underline;
+}
 
 img {
         border: 5px solid #8CC6E6;
+        
     }
 
 .hobbies-pics {
         flex-direction: left;
         padding-right: 10px;
-        width: 25%;
+        width: 20%;
 
     }
 
     .hobbies-body {
         flex-direction: right;
         width: 60%;
-        padding-left: 10px;
+        padding: 10px;
+        
         background-color: #3E5866;
         color: aliceblue;
     }
 
+.links1 {
+    box-shadow: 4px 4px #3E5866;    
+}
+
+.links2 {
+    box-shadow: 4px 4px #3E5866;    
+}
+
 .paragraph  {
         background-color: #3E5866;
         color: aliceblue;
+        padding: 5px;
     }
 
 
@@ -126,7 +224,7 @@ footer {
     }
     
 footer p {
-        color: white;
+        color: #204D66;
         font-weight: 400;
         float: left;
         padding-right: 10px;
@@ -137,9 +235,7 @@ footer a {
         text-decoration: none;
         color: white;
         float: right;
+        padding: 10px;
     
     }
 
-.links {
-    padding-left: 10px;
-}
